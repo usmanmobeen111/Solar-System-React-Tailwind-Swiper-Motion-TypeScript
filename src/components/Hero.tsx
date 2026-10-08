@@ -1,7 +1,7 @@
 import { FaArrowRight, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 import Navbar from "./Navbar"
 import HeroCrad from "./HeroCrad"
-import { motion } from "framer-motion";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -65,7 +65,8 @@ const Hero = () => {
           <Swiper
             modules={[Autoplay, Pagination]}
             spaceBetween={20}
-            slidesPerView={1}
+            slidesPerView={1.2}
+            centeredSlides={true}
             grabCursor={true}
             loop={heroCardData.length > 1}
             autoplay={{
