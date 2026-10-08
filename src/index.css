@@ -5,3 +5,22 @@
   --font-poppins: 'Poppins', sans-serif;
   --font-outfit: 'Outfit', sans-serif;
 }
+
+/* Swiper pagination custom styles */
+.swiper-pagination {
+  bottom: 0 !important;
+
+}
+
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.4) !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fbbf24 !important;
+  width: 24px !important;
+  border-radius: 9999px !important;
+  box-shadow: 0 0 10px rgba(251, 191, 36, 0.5) !important;
+}
