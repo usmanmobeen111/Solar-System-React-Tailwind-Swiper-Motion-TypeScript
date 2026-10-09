@@ -22,7 +22,7 @@ const PerformanceCard = ({ img, title, des, icon: Icon, index }: PerformanceCard
       <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/50 to-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none rounded-3xl" />
 
       {/* Giant Bottom-Right Watermark Icon (Appears only on Hover) */}
-      <div className="absolute bottom-10 right-10 pointer-events-none text-white opacity-0 scale-75  group-hover:opacity-20 group-hover:scale-150 transition-all duration-500 ease-out z-10">
+      <div className="absolute -bottom-5 -right-5 pointer-events-none text-white opacity-0 scale-75  group-hover:opacity-20 group-hover:scale-150 transition-all duration-500 ease-out z-10">
         <Icon size={140} />
       </div>
 
