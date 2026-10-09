@@ -1,6 +1,7 @@
 import Hero from "./components/Hero"
 import Performance from "./components/Performance"
 import ShowCase from "./components/ShowCase"
+import Stories from "./components/Stories"
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
 <Hero/>
 <Performance/>
 <ShowCase/>
+<Stories/>
     </div>
   )
 }
